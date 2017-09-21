@@ -19,7 +19,6 @@ input,textarea{
   color: #666666
 }
 // *********************点击元素产生背景或边框怎么去掉*************************************//
-
 input,textarea {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -119,4 +118,11 @@ html,body{
 #app{
   margin-top: 0px;
   color: $black;
+}
+.getServerceError{
+  color: $black;
+  font-size: px2rem(16);
+  text-align: center;
+  width: 100%;
+  padding-top: px2rem(40);
 }

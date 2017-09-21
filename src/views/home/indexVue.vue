@@ -15,7 +15,11 @@ export default {
 
 <style type="text/scss" lang="scss">
 @import '../../assets/style/_include/_all';
+#app{
+  font-size: px2rem(20);
+}
 h2 {
   color: $mainPurple;
+  font-size: px2rem(14);
 }
 </style>
